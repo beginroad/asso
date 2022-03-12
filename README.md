@@ -6,6 +6,29 @@ asso拍照搜题小程序Demo，快速开发一款搜题小程序！
 
 > 定制开发部署，请关注公众号**联系客服**
 
+
+
+## 代码运行
+
+#### 1.下载代码到本地
+
+- 方式一：通过 `git` 下载
+
+> git clone https://github.com/beginroad/asso.git
+
+- 方式二：页面点击`Code` -> `Download Zip`
+
+
+
+#### 2.导入 [微信开发工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
+
+#### 3.修改如下配置：
+
+- `project.config.json`修改`appid`为自己微信小程序的`appid`
+- `pages/result/result.js`修改`appKey`和`appSecret`
+
+
+
 ## 代码目录
 >  |-- **pages**
 >
