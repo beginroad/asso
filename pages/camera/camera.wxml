@@ -1,0 +1,5 @@
+<!--pages/camera/camera.wxml-->
+<camera device-position="back" flash="auto" class="camera" mode=""></camera>
+<cover-view class="bottom">
+    <cover-image src="../images/camera.png" class="img" bindtap="takePhoto"></cover-image>
+</cover-view>

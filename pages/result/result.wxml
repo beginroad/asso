@@ -1,0 +1,24 @@
+<!--pages/result/result.wxml-->
+<view class="preview">
+    <image src="{{imagePath}}" class="img" mode="heightFix"></image>
+</view>
+<view class="result-card" wx:if="{{show}}">
+    <view class="empty">
+        <l-icon name="warning" size="32"></l-icon>
+        <view class="text">未识别结果</view>
+    </view>
+</view>
+
+<block wx:if="{{!show}}">
+<view class="result-card">
+    <view class="title">题目</view>
+    <rich-text nodes="{{questions}}"></rich-text>
+</view>
+
+<view class="result-card">
+    <view class="title">答案</view>
+    <rich-text nodes="{{answer}}"></rich-text>
+    <view class="title">答案解析</view>
+    <rich-text nodes="{{analysis}}"></rich-text>
+</view>
+</block>

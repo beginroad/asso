@@ -1,0 +1,43 @@
+/* pages/result/result.wxss */
+page {
+    background-color: #FFF;
+}
+
+.preview {
+    height: 300rpx;
+}
+
+.img {
+    height: 300rpx;
+}
+
+.result-card {
+    border-top: 20rpx solid #F2F2F2;
+    padding: 30rpx;
+}
+.result-card .title {
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+.wxParse-p {
+    font-size: 28rpx;
+}
+
+latex {
+    width: auto !important;
+}
+
+.empty {
+    width: 750rpx;
+    margin-top: 50rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .empty .text {
+    margin-left: 15rpx;
+    font-size: 32rpx;
+    color: #333;
+  }
