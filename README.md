@@ -73,7 +73,7 @@ asso拍照搜题小程序Demo，快速开发一款搜题小程序！
 >  |  |  |-- util.json
 
 ## 完整版体验小程序
-![](https://chuanglu.bishehoule.cn/images/mp_qrcode.jpg)
+![](https://mp.beginroad.cn/images/mp_qrcode.jpg)
 
 ## 微信公众号
-![](https://chuanglu.bishehoule.cn/images/qrcode.jpg)
+![](https://mp.beginroad.cn/images/qrcode.jpg)
